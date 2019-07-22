@@ -9,12 +9,13 @@
   <url>http://maven.apache.org</url>
   <properties>
 		<spring.version>5.1.8.RELEASE</spring.version>
+		<powermock.version>2.0.2</powermock.version>
   </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -32,6 +33,18 @@
 	    <artifactId>jackson-core</artifactId>
 	    <version>2.9.9</version>
 	</dependency>
+	<dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-junit4</artifactId>
+      <version>${powermock.version}</version>
+      <scope>test</scope>
+   </dependency>
+   <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-api-easymock</artifactId>
+      <version>${powermock.version}</version>
+      <scope>test</scope>
+   </dependency>
   </dependencies>
   <build>
     <finalName>weathervin</finalName>
