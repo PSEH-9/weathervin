@@ -1,0 +1,4 @@
+com\vin\app\model\Weather.class
+com\vin\app\model\Util.class
+com\vin\app\model\Forecast.class
+com\vin\app\controller\WeatherController.class
